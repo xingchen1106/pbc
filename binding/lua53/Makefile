@@ -1,6 +1,7 @@
 CC = gcc
-CFLAGS = -O2 -fPIC -Wall -shared
-# -bundle -undefined dynamic_lookup
+CFLAGS = -O2 -fPIC -Wall -bundle -undefined dynamic_lookup
+#linux# -shared
+#mac  # -bundle -undefined dynamic_lookup
 LUADIR = ../../../skynet/3rd/lua
 TARGET = protobuf.so
 
